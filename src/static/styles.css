@@ -167,3 +167,70 @@ footer {
 .participants-list li {
   margin-bottom: 2px;
 }
+
+#unregister-container {
+  background-color: #fff8f0;
+  border: 1px solid #ffe0b2;
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255, 152, 0, 0.08);
+  max-width: 500px;
+  width: 100%;
+}
+
+#unregister-container h3 {
+  color: #e65100;
+  border-bottom: 1px solid #ffe0b2;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+#unregister-form .form-group label {
+  color: #e65100;
+}
+
+#unregister-form input,
+#unregister-form select {
+  border: 1px solid #ffe0b2;
+}
+
+#unregister-form .unregister-btn,
+button.unregister-btn {
+  background-color: #e65100;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+#unregister-form .unregister-btn:hover,
+button.unregister-btn:hover {
+  background-color: #ff9800;
+}
+
+#unregister-message {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.form-divider {
+  border: none;
+  border-top: 2px dashed #e0e0e0;
+  margin: 32px 0 24px 0;
+  height: 0;
+  width: 100%;
+}
+
+.unregister-heading {
+  color: #e65100;
+  border-bottom: 1px solid #ffe0b2;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
