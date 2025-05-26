@@ -38,6 +38,27 @@
           <button type="submit">Sign Up</button>
         </form>
         <div id="message" class="hidden"></div>
+
+        <!-- Divider between forms -->
+        <div class="form-divider"></div>
+
+        <!-- Unregister form directly below, no extra section -->
+        <h3 class="unregister-heading">Unregister from an Activity</h3>
+        <form id="unregister-form">
+          <div class="form-group">
+            <label for="unregister-email">Student Email:</label>
+            <input type="email" id="unregister-email" required placeholder="your-email@mergington.edu" />
+          </div>
+          <div class="form-group">
+            <label for="unregister-activity">Select Activity:</label>
+            <select id="unregister-activity" required>
+              <option value="">-- Select an activity --</option>
+              <!-- Activity options will be loaded here -->
+            </select>
+          </div>
+          <button type="submit" class="unregister-btn">Unregister</button>
+        </form>
+        <div id="unregister-message" class="hidden"></div>
       </section>
     </main>
 
